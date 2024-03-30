@@ -10,7 +10,7 @@ namespace LegacyApp
     public static class UserDataAccess
     {
         /// <summary>
-        /// This service is simulating saving user tUo remote database
+        /// This service is simulating saving user to remote database
         /// </summary>
         public static void AddUser(User user)
         {
