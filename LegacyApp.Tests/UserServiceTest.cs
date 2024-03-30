@@ -81,7 +81,7 @@ public class UserServiceTest
     
     
     [Fact]
-    public void Add_User_Should_Throw_Exception_When_User_No_Credit_Limit_Exist()
+    public void Add_User_Should_Throw_Exception_When_No_Data_On_Non_VeryImportant_User()
     {
         // Arrange
         var userService = new UserService();
