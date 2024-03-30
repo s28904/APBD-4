@@ -58,9 +58,9 @@ public class UserServiceTest
     {
         // Arrange
         var userService = new UserService();
-        var date12YearAgo = DateTime.Now.AddYears(-21).AddDays(1);
+        var dateLessThan21YearsAgo = DateTime.Now.AddYears(-21).AddDays(1);
         // Act
-        var addUserService = userService.AddUser("John", "Doe", "email@email.com",date12YearAgo, 2);
+        var addUserService = userService.AddUser("John", "Doe", "email@email.com",dateLessThan21YearsAgo, 2);
         // Assert
         Assert.False(addUserService);
     }
